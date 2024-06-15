@@ -8,10 +8,9 @@ public class Player
         this.aName = "Inconnu";
         this.aLevel = 1;
         System.out.println(this.aName + " : " + " L " + this.aLevel);
-        System.out.println("");
     }
 
-    public void attack()
+    public void attack() // Methode attack()
     {
         System.out.println(this.aName + " attaque un cible !");
     }
