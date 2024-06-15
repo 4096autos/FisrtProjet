@@ -1,7 +1,13 @@
 public class Cat
 {
-    public Cat()
+    private String aName;// Attribut/variable membres de classe
+    private int aAge;// Attribut/variable membres de classe
+
+    public Cat(String name, int age) // Constructeur(...)
     {
-        System.out.println("Je suis un chat" + this);
+        this.aName = name;
+        this.aAge = age;
+
+        System.out.println(this.aName + " - " + this.aAge);
     }
 }
