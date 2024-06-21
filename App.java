@@ -17,6 +17,16 @@ public class App
         Player p1 = new Player();// Instanciation de l'objet p1
         p1.attack(); //Appel à la methode attack()
 
+
+        System.out.println("--------------   ----------------");
+        
+        // For SoftwareRegistration
+        System.out.println("For Software Registration ");
+        System.out.println("--------------");
+        SoftwareRegistration sr = new SoftwareRegistration(2020);// Instanciation de l'objet p1
+
+        sr.setExpirationYear(2050);// setters
+        System.out.println("Changement de date : " + sr.getExpirationYear()); // getters
         System.out.println("-----------------------------------");
     }
 }

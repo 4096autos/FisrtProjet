@@ -14,5 +14,4 @@ public class Player
     {
         System.out.println(this.aName + " attaque un cible !");
     }
-
 }
