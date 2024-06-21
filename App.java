@@ -21,12 +21,16 @@ public class App
         System.out.println("--------------   ----------------");
         
         // For SoftwareRegistration
-        System.out.println("For Software Registration ");
+        System.out.println("For 2 Software Registration ");
         System.out.println("--------------");
         SoftwareRegistration sr = new SoftwareRegistration(2020);// Instanciation de l'objet p1
+        System.out.println("------");
+        SoftwareRegistration sr2 = new SoftwareRegistration(2022);// Instanciation de l'objet p1
+        System.out.println("------");
+        SoftwareRegistration sr3 = new SoftwareRegistration(2023);// Instanciation de l'objet p1
 
-        sr.setExpirationYear(2050);// setters
-        System.out.println("Changement de date : " + sr.getExpirationYear()); // getters
+        // sr.setExpirationYear(2050);// setters
+        // System.out.println("Changement de date : " + sr.getExpirationYear()); // getters
         System.out.println("-----------------------------------");
     }
 }
