@@ -24,6 +24,7 @@ public class SoftwareRegistration {
 	// Getter]
 	// public void setExpirationYear(int expiration){ this.aExpirationYear =
 	// expiration;} //[ACCESSEURS : setter]
+	
 	public static int getNumberOfRegistration() {
 		return aNumberOfRegistration;
 	} // [ACCESSEURS : Getter]

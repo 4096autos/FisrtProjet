@@ -33,5 +33,17 @@ public class App {
 		// System.out.println("Changement de date : " + sr.getExpirationYear()); //
 		// getters
 		System.out.println("-----------------------------------");
+
+		// For Table
+		System.out.println("For Table");
+		System.out.println("--------------");
+		Table tab1 = new Table();// Instanciation de l'objet miaou
+		// Instanciation de l'objet miaou2
+		tab1.showTable();
+		System.out.println("---Dimensions");
+		tab1.showTable2();
+		System.out.println("--------------   ----------------");
+		int[] ta = { 1, 2, 3 };
+		tab1.printTab(ta);
 	}
 }
