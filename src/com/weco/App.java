@@ -45,5 +45,10 @@ public class App {
 		System.out.println("--------------   ----------------");
 		int[] ta = { 1, 2, 3 };
 		tab1.printTab(ta);
+
+		// For String
+		System.out.println("For Strings");
+		Stringg strr = new Stringg();
+		strr.showStrings();
 	}
 }
