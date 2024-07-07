@@ -1,7 +1,9 @@
 package com.weco;
 
+import java.io.IOException;
+
 public class App {
-	public static void main(String[] args) {
+	public static void main(String[] args)  throws IOException {
 		System.out.println("-----------------------------------");
 		// For Cat
 		System.out.println("For CAT ");
@@ -50,5 +52,14 @@ public class App {
 		System.out.println("For Strings");
 		Stringg strr = new Stringg();
 		strr.showStrings();
+
+		// For Reader data
+		System.out.println("For Reader data");
+		ReadData read = new ReadData();
+		read.showRead();
+		
+		
+		
+		
 	}
 }

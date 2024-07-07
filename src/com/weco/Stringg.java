@@ -12,7 +12,7 @@ public class Stringg {
      * 
      * <pre></pre>
      * 
-     * * showString1() <br>
+     * showString1() <br>
      * showString2() <br>
      * showString3() <br>
      */
@@ -79,7 +79,7 @@ public class Stringg {
     }
 
     /**
-     * StringBuilder | StringBuffer <br>
+     * StringBuilder VS StringBuffer <br>
      * 
      * <pre></pre>
      * 
