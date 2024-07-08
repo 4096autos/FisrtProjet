@@ -58,6 +58,12 @@ public class App {
 		ReadData read = new ReadData();
 		read.showRead();
 		
+
+		// For Try Catch
+		System.out.println("For Reader data");
+		Exceptions excep= new Exceptions();
+		excep.showExceptions();
+		
 		
 		
 		
